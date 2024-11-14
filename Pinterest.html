@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=31536000">
+    <img loading="lazy">
+    <title>Pinterest, by Alex Gil</title>
+</head>
+<body>
+    <header>
+        <img src="assets/pinterestlogo.png" alt="logo de Pinterest" height="40px">
+        &emsp; &emsp;
+        <button style="background-color: black; color: white; border-radius: 40%; border-width: 10px;"><strong style="font-size: large;">Hoy</strong></button>
+        &ensp;
+        <button style="background-color: white; border-color: white; border-radius: 40%; font-size: large;">Explorar</button>
+        &emsp; &emsp; &emsp; &emsp;
+        <label for="search" style="font-size:x-large;">Buscar ideas</label>
+        <input type="search" name="search" style="background-color: rgb(239, 239, 239); border-color: rgb(239, 239, 239); width: 350px; height: 30px;">
+        &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+        <button style="background-color: rgb(228, 228, 228); border-color: rgb(228, 228, 228); border-radius: 40%; font-size: large;">Iniciar sesión</button>
+        &emsp;
+        <button style="background-color: rgb(255, 0, 0); border-color: rgb(255, 0, 0); border-radius: 40%; color: white; font-size: large;">Registrarse</button>
+    </header>
+    <br><br><br>
+<main>
+    <table>
+        <colgroup span="3"></colgroup>
+        <thead>
+          <tr>
+            <th><img src="/assets/biblioteca_libros.jpg" alt="Biblioteca libros" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto1').showModal()">&emsp;</th>
+            <dialog id="foto1">
+          <img src="/assets/biblioteca_libros.jpg" height="600px" alt="biblioteca" />
+          <p style="text-align: center;">Biblioteca con libros, de <strong>Sara Hurtado</strong>&emsp;<img src="/assets/fotoperfil1.jpg" height="30px" style="border-radius: 60%;"></p>
+          <button id="close" style="height: 40px;" onclick="document.getElementById('foto1').close()">
+            Cerrar
+          </button>
+        </dialog>
+            <th><img src="/assets/delfines_mar.jpg" alt="Delfines en el mar" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto2').showModal()">&emsp;</th>
+            <dialog id="foto2">
+          <img src="/assets/delfines_mar.jpg" height="600px" alt="delfines" />
+          <p style="text-align: center;">Delfines en el mar, de <strong>Sara Hurtado</strong>&emsp;<img src="/assets/fotoperfil1.jpg" height="30px" style="border-radius: 60%;"></p>
+          <button id="close" style="height: 40px;" onclick="document.getElementById('foto2').close()">
+            Cerrar
+          </button>
+        </dialog>
+        <th><img src="/assets/ia_robot.jpg" alt="Robot inteligencia artificial" height="220px" style="border-radius: 10%;" onclick="document.getElementById('foto3').showModal()"></th>
+        <dialog id="foto3">
+          <img src="/assets/ia_robot.jpg" height="600px" alt="Robot ia" />
+          <p style="text-align: center;">Robot de Inteligencia Artificial, de <strong>Kakashi Sensei 87</strong>&emsp;<img src="/assets/fotoperfil3.jpg" height="30px" style="border-radius: 60%;"></p>
+          <button id="close" style="height: 40px;" onclick="document.getElementById('foto3').close()">
+            Cerrar
+          </button>
+        </dialog>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">Biblioteca | Libros | Estudio <br>
+            <img src="/assets/fotoperfil1.jpg" alt="Perfil de Sara Hurtado" height="30px" style="border-radius: 60%;"> Sara Hurtado</td>
+            <td style="text-align: center;">Delfines | Mar | Animales Marinos <br>
+            <img src="/assets/fotoperfil1.jpg" alt="Perfil de Sara Hurtado" height="30px" style="border-radius: 60%;"> Sara Hurtado</td>
+            <td style="text-align: center;">Robot | Inteligencia Artificial <br>
+            <img src="/assets/fotoperfil3.jpg" alt="Perfil de Kakashi Sensei 87" height="30px" style="border-radius: 60%;"> Kakashi Sensei 87</td>
+        </tr>
+        </tbody>
+      </table>
+      <br>
+      <table>
+        <colgroup span="3"></colgroup>
+        <thead>
+          <tr>
+            <th>
+              <img src="/assets/muffins_arandanos.jpg" alt="Muffins de arándanos" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto4').showModal()">&emsp;</th>
+              <dialog id="foto4">
+              <img src="/assets/muffins_arandanos.jpg" height="600px" alt="muffins de arándanos" />
+              <p style="text-align: center;">Muffins de arándanos, de <strong>Sara Hurtado</strong>&emsp;<img src="/assets/fotoperfil1.jpg" height="30px" style="border-radius: 60%;"></p>
+              <button id="close" style="height: 40px;" onclick="document.getElementById('foto4').close()">
+                Cerrar
+              </button>
+            </dialog>
+            <th><img src="/assets/Nueva_York.jpg" alt="Calle de Nueva York" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto5').showModal()">&emsp;</th>
+            <dialog id="foto5">
+              <img src="/assets/Nueva_York.jpg" height="600px" alt="Nueva York" />
+              <p style="text-align: center;">Calles de Nueva York, de <strong>Ricardo Altamira</strong>&emsp;<img src="/assets/fotoperfil2.jpg" height="30px" style="border-radius: 60%;"></p>
+              <button id="close" style="height: 40px;" onclick="document.getElementById('foto5').close()">
+                Cerrar
+              </button>
+            </dialog>
+            <th><img src="/assets/pareja_feliz.jpg" alt="Pareja feliz" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto6').showModal()"></th>
+            <dialog id="foto6">
+              <img src="/assets/pareja_feliz.jpg" height="600px" alt="Pareja feliz" />
+              <p style="text-align: center;">Pareja feliz en el campo, de <strong>Sara Hurtado</strong>&emsp;<img src="/assets/fotoperfil1.jpg" height="30px" style="border-radius: 60%;"></p>
+              <button id="close" style="height: 40px;" onclick="document.getElementById('foto6').close()">
+                Cerrar
+              </button>
+            </dialog>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">Muffins | Arándanos | Dulces <br>
+            <img src="/assets/fotoperfil1.jpg" alt="Perfil de Sara Hurtado" height="30px" style="border-radius: 60%;"> Sara Hurtado</td>
+            <td style="text-align: center;">Nueva York | Ciudad | Viajes <br>
+            <img src="/assets/fotoperfil2.jpg" alt="Perfil de Ricardo Altamira" height="30px" style="border-radius: 60%;"> Ricardo Altamira</td>
+            <td style="text-align: center;">Pareja Feliz | Amor | Campo <br>
+            <img src="/assets/fotoperfil1.jpg" alt="Perfil de Sara Hurtado" height="30px" style="border-radius: 60%;"> Sara Hurtado</td>
+        </tr>
+        </tbody>
+      </table>
+      <br>
+      <table>
+        <colgroup span="3"></colgroup>
+        <thead>
+          <tr>
+            <th><img src="/assets/pizza_peperoni.jpg" alt="Pizza de Peperoni" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto7').showModal()">&emsp;</th>
+            <dialog id="foto7">
+              <img src="/assets/pizza_peperoni.jpg" height="600px" alt="Pizza Peperoni" />
+              <p style="text-align: center;">Pizza Peperoni, de <strong>Kakashi Sensei 87</strong>&emsp;<img src="/assets/fotoperfil3.jpg" height="30px" style="border-radius: 60%;"></p>
+              <button id="close" style="height: 40px;" onclick="document.getElementById('foto7').close()">
+                Cerrar
+              </button>
+            </dialog>
+            <th><img src="/assets/pokemon_charizard.jpg" alt="Pokemon Charizard" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto8').showModal()">&emsp;</th>
+            <dialog id="foto8">
+              <img src="/assets/pokemon_charizard.jpg" height="600px" alt="Pokemon Charizard" />
+              <p style="text-align: center;">Charizard de Kanto, de <strong>Kakashi Sensei 87</strong>&emsp;<img src="/assets/fotoperfil3.jpg" height="30px" style="border-radius: 60%;"></p>
+              <button id="close" style="height: 40px;" onclick="document.getElementById('foto8').close()">
+                Cerrar
+              </button>
+            </dialog>
+            <th><img src="/assets/selva_magica.jpg" alt="Selva mágica" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto9').showModal()"></th>
+            <dialog id="foto9">
+              <img src="/assets/selva_magica.jpg" height="600px" alt="Selva mágica" />
+              <p style="text-align: center;">Selva mágica, de <strong>Ricardo Altamira</strong>&emsp;<img src="/assets/fotoperfil2.jpg" height="30px" style="border-radius: 60%;"></p>
+              <button id="close" style="height: 40px;" onclick="document.getElementById('foto9').close()">
+                Cerrar
+              </button>
+            </dialog>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">Pizza | Peperoni | Comida Italiana <br>
+            <img src="/assets/fotoperfil3.jpg" alt="Perfil de Kakashi Sensei 87" height="30px" style="border-radius: 60%;"> Kakashi Sensei 87</td>
+            <td style="text-align: center;">Charizard | Pokemon | Kanto <br>
+            <img src="/assets/fotoperfil3.jpg" alt="Perfil de Kakashi Sensei 87" height="30px" style="border-radius: 60%;"> Kakashi Sensei 87</td>
+            <td style="text-align: center;">Selva | Magia | Cuento <br>
+            <img src="/assets/fotoperfil2.jpg" alt="Perfil de Ricardo Altamira" height="30px" style="border-radius: 60%;"> Ricardo Altamira</td>
+        </tr>
+        </tbody>
+      </table>
+      <br>
+      <table>
+        <colgroup span="3"></colgroup>
+        <thead>
+          <tr>
+            <th><img src="/assets/sol_espacio.jpg" alt="Sol espacio" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto10').showModal()">&emsp;</th>
+            <dialog id="foto10">
+              <img src="/assets/sol_espacio.jpg" height="600px" alt="Sol en el espacio" />
+              <p style="text-align: center;">Sol en el espacio, de <strong>Ricardo Altamira</strong>&emsp;<img src="/assets/fotoperfil2.jpg" height="30px" style="border-radius: 60%;"></p>
+              <button id="close" style="height: 40px;" onclick="document.getElementById('foto10').close()">
+                Cerrar
+              </button>
+            </dialog>
+            <th><img src="/assets/submarino_amarillo.jpg" alt="Submarino amarillo" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto11').showModal()">&emsp;</th>
+            <dialog id="foto11">
+              <img src="/assets/submarino_amarillo.jpg" height="600px" alt="Pizza Peperoni" />
+              <p style="text-align: center;">Submarino amarillo, de <strong>Sara Hurtado</strong>&emsp;<img src="/assets/fotoperfil1.jpg" height="30px" style="border-radius: 60%;"></p>
+              <button id="close" style="height: 40px;" onclick="document.getElementById('foto11').close()">
+                Cerrar
+              </button>
+            </dialog>
+            <th><img src="/assets/truco_magia.jpg" alt="Truco de magia" height="250px" style="border-radius: 10%;" onclick="document.getElementById('foto12').showModal()"></th>
+            <dialog id="foto12">
+              <img src="/assets/truco_magia.jpg" height="600px" alt="Pizza Peperoni" />
+              <p style="text-align: center;">Truco de magia, de <strong>Kakashi Sensei 87</strong>&emsp;<img src="/assets/fotoperfil3.jpg" height="30px" style="border-radius: 60%;"></p>
+              <button id="close" style="height: 40px;" onclick="document.getElementById('foto12').close()">
+                Cerrar
+              </button>
+            </dialog>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center;">Sol | Espacio | Sistema Solar <br>
+            <img src="/assets/fotoperfil2.jpg" alt="Perfil de Ricardo Altamira" height="30px" style="border-radius: 60%;"> Ricardo Altamira</td>
+            <td style="text-align: center;">Submarino amarillo | Tenerife | Mar <br>
+            <img src="/assets/fotoperfil1.jpg" alt="Perfil de Sara Hurtado" height="30px" style="border-radius: 60%;"> Sara Hurtado</td>
+            <td style="text-align: center;">Truco de Magia | Chistera | Varita Mágica <br>
+            <img src="/assets/fotoperfil3.jpg" alt="Perfil de Kakashi Sensei 87" height="30px" style="border-radius: 60%;"> Kakashi Sensei 87</td>
+        </tr>
+        </tbody>
+      </table>
+<br><br>
+<footer style="text-align: center;">
+  ©2024 - Pinterest by Alex Gil - Todos los derechos reservados :) <br>
+    <a href="https://youtube.com/@educandoheroes"><img src="/assets/YouTube Logo.jpg" alt="Canal de YouTube" height="50px"></a>
+</footer>
+<br><br>
+</body>
+</html>
